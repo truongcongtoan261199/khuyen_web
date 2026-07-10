@@ -1,6 +1,6 @@
 "use client";
-import { useState, useEffect, useCallback, useMemo } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { useState, useEffect, useCallback, useMemo, useRef } from "react";
+import { motion, AnimatePresence, PanInfo } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -25,12 +25,16 @@ const slides = [
   }
 ];
 
+const swipeConfidenceThreshold = 10000;
+
+function swipePower(offset: number, velocity: number) {
+  return Math.abs(offset) * velocity;
+}
+
 export default function HeroSlider() {
   const [current, setCurrent] = useState(0);
   const [direction, setDirection] = useState(1);
   const [isPaused, setIsPaused] = useState(false);
-
-  // Memoized slides to prevent unnecessary re-renders
   const memoizedSlides = useMemo(() => slides, []);
 
   useEffect(() => {
@@ -54,6 +58,22 @@ export default function HeroSlider() {
   const handleMouseEnter = useCallback(() => setIsPaused(true), []);
   const handleMouseLeave = useCallback(() => setIsPaused(false), []);
 
+  const handleDragEnd = useCallback(
+    (_: unknown, { offset, velocity }: PanInfo) => {
+      const swipe = swipePower(offset.x, velocity.x);
+      if (swipe < -swipeConfidenceThreshold) {
+        setDirection(1);
+        setCurrent((prev) => (prev + 1) % memoizedSlides.length);
+      } else if (swipe > swipeConfidenceThreshold) {
+        setDirection(-1);
+        setCurrent((prev) => (prev - 1 + memoizedSlides.length) % memoizedSlides.length);
+      }
+      setIsPaused(true);
+      setTimeout(() => setIsPaused(false), 8000);
+    },
+    [memoizedSlides.length]
+  );
+
   const variants = {
     enter: (dir: number) => ({
       x: dir > 0 ? 120 : -120,
@@ -70,7 +90,11 @@ export default function HeroSlider() {
   };
 
   return (
-      <div  className="relative w-full overflow-hidden h-[280px] md:h-[560px] lg:h-[750px]">
+    <div
+      className="relative w-full overflow-hidden h-[280px] md:h-[560px] lg:h-[750px]"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
       {/* SLIDE */}
       <AnimatePresence custom={direction} mode="wait">
         <motion.div
@@ -81,7 +105,11 @@ export default function HeroSlider() {
           animate="center"
           exit="exit"
           transition={{ duration: 0.7 }}
-          className="absolute inset-0"
+          drag="x"
+          dragConstraints={{ left: 0, right: 0 }}
+          dragElastic={0.5}
+          onDragEnd={handleDragEnd}
+          className="absolute inset-0 cursor-grab active:cursor-grabbing"
         >
           {/* IMAGE + PARALLAX ZOOM */}
           <motion.div
@@ -155,37 +183,37 @@ export default function HeroSlider() {
         </motion.div>
       </AnimatePresence>
 
-      {/* DOTS */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-3 z-20">
+      {/* DOTS - Mobile: compact indicator, Desktop: dot row */}
+      <div className="absolute bottom-5 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2 md:gap-3">
         {memoizedSlides.map((_, i) => (
           <button
             key={i}
             onClick={() => changeSlide(i)}
-            className={`w-3 h-3 rounded-full transition ${
+            className={`h-1.5 rounded-full transition-all duration-300 ${
               i === current
-                ? "bg-white scale-125"
-                : "bg-white/60 hover:bg-white"
+                ? "bg-white w-6 md:w-8"
+                : "bg-white/40 hover:bg-white/60 w-1.5 md:w-3"
             }`}
             aria-label={`Go to slide ${i + 1}`}
           />
         ))}
       </div>
 
-      {/* PREV */}
+      {/* PREV - hidden on mobile */}
       <button
         onClick={() =>
           changeSlide((current - 1 + memoizedSlides.length) % memoizedSlides.length)
         }
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/60 text-white w-11 h-11 rounded-full z-20 transition-colors"
+        className="hidden md:flex absolute left-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/60 text-white w-11 h-11 rounded-full z-20 transition-colors items-center justify-center"
         aria-label="Previous slide"
       >
         ‹
       </button>
 
-      {/* NEXT */}
+      {/* NEXT - hidden on mobile */}
       <button
         onClick={() => changeSlide((current + 1) % memoizedSlides.length)}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/60 text-white w-11 h-11 rounded-full z-20 transition-colors"
+        className="hidden md:flex absolute right-4 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/60 text-white w-11 h-11 rounded-full z-20 transition-colors items-center justify-center"
         aria-label="Next slide"
       >
         ›

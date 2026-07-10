@@ -4,70 +4,71 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Breadcrumb from "../../components/Breadcrumb";
 
 const projects = [
   {
     id: 1,
-    slug: "du-an-tai-ha-dong-ha-noi",
-    title: "Công Trình Tại Hà Đông, Hà Nội",
-    location: "Hà Đông, Hà Nội",
-    img: "https://ldcompany.vn/wp-content/uploads/2024/07/Anh-bia-ngoai-1-1400x788.jpg",
+    slug: "du-an-anh-hung-chi-thom-tai-phuc-tho-ha-noi",
+    title: "Dự án nhà anh Hưng – chị Thơm tại Phúc Thọ - Hà Nội",
+    location: "Phúc Thọ, Hà Nội",
+    img: "/images/duandathuchien/phuc-tho-ha-noi-3.jpg",
     category: "Lọc nước tổng & Nước nóng",
   },
   {
     id: 2,
-    slug: "biet-thu-tai-thanh-pho-vinh-nghe-an",
-    title: "Biệt Thự Tại Thành Phố Vinh, Nghệ An",
-    location: "TP. Vinh, Nghệ An",
-    img: "https://ldcompany.vn/wp-content/uploads/2024/07/Anh-bia-ngoai-1400x788.jpg",
-    category: "Toàn bộ giải pháp",
+    slug: "biet-thu-anh-tinh-tai-kdt-phap-van",
+    title: "Dự án nhà anh Tỉnh tại KĐT Pháp Vân – Hà Nội",
+    location: "KĐT Pháp Vân, Hà Nội",
+    img: "/images/duandathuchien/phap-van-ha-noi-1.png",
+    category: "Lọc nước tổng & Nước nóng",
   },
   {
     id: 3,
-    slug: "biet-thu-tai-tp-vinh-nghe-an",
-    title: "Công Trình Biệt Thự Tại TP. Vinh, Nghệ An",
-    location: "TP. Vinh, Nghệ An",
-    img: "https://ldcompany.vn/wp-content/uploads/2024/06/Anh-bia-ngoai-13-1400x788.jpg",
-    category: "Nước nóng trung tâm",
+    slug: "biet-thu-anh-nguyen-tai-phu-ly-ha-nam",
+    title: "Dự án nhà anh Nguyên KĐT Lam Hạ - Phủ Lý – Hà Nam",
+    location: "Phủ Lý, Hà Nam",
+    img: "/images/duandathuchien/phu-ly-ha-nam-1.jpg",
+    category: "Lọc nước tổng & Nước nóng",
   },
   {
     id: 4,
-    slug: "biet-thu-tai-hai-duong",
-    title: "Công Trình Biệt Thự Tại TP. Hải Dương",
-    location: "TP. Hải Dương",
-    img: "https://ldcompany.vn/wp-content/uploads/2024/06/Anh-bia-ngoai-12-1400x788.jpg",
-    category: "Lọc nước & Khí tươi",
+    slug: "biet-thu-bac-a-tai-kdt-nam-an-khanh-hoai-duc-ha-noi",
+    title: "Dự án nhà bác Á – KĐT Nam An Khánh – Hoài Đức – Hà Nội",
+    location: "Hoài Đức, Hà Nội",
+    img: "/images/duandathuchien/an-khanh-hoai-duc-hanoi-1.jpg",
+    category: "Nước nóng trung tâm",
   },
   {
     id: 5,
-    slug: "biet-thu-vinh-yen-vinh-phuc",
-    title: "Công Trình Biệt Thự Tại Vĩnh Yên, Vĩnh Phúc",
-    location: "Vĩnh Yên, Vĩnh Phúc",
-    img: "https://ldcompany.vn/wp-content/uploads/2024/06/Anh-bia-ngoai-11-1400x788.jpg",
-    category: "Sưởi ấm dưới sàn",
+    slug: "biet-thu-anh-long-tai-kdt-dong-ve-thanh-hoa",
+    title: "Dự án công trình nhà anh Long KĐT Đông Vệ - Thanh Hóa ",
+    location: "Đông Vệ, Thanh Hóa",
+    img: "/images/duandathuchien/dong-ve-thanh-hoa-1.jpg",
+    category: "Nước nóng trung tâm",
   },
   {
     id: 6,
-    slug: "biet-thu-hai-tan-hai-duong",
-    title: "Biệt Thự Tại Hải Tân, Hải Dương",
-    location: "Hải Tân, Hải Dương",
-    img: "https://ldcompany.vn/wp-content/uploads/2024/06/Anh-bia-ngoai-10-1400x788.jpg",
+    slug: "biet-thu-anh-dung-hong-tien-long-bien-ha-noi",
+    title: "Dự án nhà a Dũng – Hồng Tiến – Long Biên – Hà Nội ",
+    location: "Hồng Tiến, Long Biên, Hà Nội",
+    img: "/images/duandathuchien/hong-tien-long-bien-1.png",
     category: "Toàn bộ giải pháp",
   },
   {
     id: 7,
-    slug: "biet-thu-dai-lai-vinh-phuc",
-    title: "Biệt Thự Tại Đại Lải, Vĩnh Phúc",
-    location: "Đại Lải, Vĩnh Phúc",
-    img: "https://ldcompany.vn/wp-content/uploads/2024/06/Anh-bia-ngoai-9-1400x788.jpg",
-    category: "Nước nóng & Khí tươi",
+    slug: "biet-thu-anh-tuan-starlake-tay-ho-ha-noi",
+    title: "Dự án nhà chú Tuấn – Starlake – Tây Hồ",
+    location: "Star Lake, Tây Hồ, Hà Nội",
+    img: "/images/duandathuchien/starlake-tay-ho-1.png",
+    category: "Lọc nước tổng & Nước nóng",
   },
   {
     id: 8,
-    slug: "biet-thu-quoc-oai-ha-noi",
-    title: "Công Trình Biệt Thự Tại Đồng Bèn, Quốc Oai",
-    location: "Quốc Oai, Hà Nội",
-    img: "https://ldcompany.vn/wp-content/uploads/2024/06/Anh-bia-ngoai-8-1400x788.jpg",
+    slug: "biet-thu-anh-cuong-the-manor-nguyen-xien-ha-noi",
+    title: "Dự án nhà anh Cường – KĐT The Manor – Nguyễn Xiển ",
+    location: "Nguyễn Xiển, Hà Nội",
+    img: "/images/duandathuchien/the-manor-nguyen-xien-1.jpg",
     category: "Lọc nước tổng",
   },
 ];
@@ -94,47 +95,73 @@ export default function DuAnClient() {
 
   return (
     <main>
+      <Breadcrumb items={[{ label: 'Trang chủ', href: '/' }, { label: 'Dự án đã thi công' }]} />
       {/* Hero */}
-      <div className="relative h-[420px] bg-[#1a5276] flex items-center justify-center text-white">
-        <div className="text-center px-4">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6 }}
+        className="relative h-[420px] bg-[#1a5276] flex items-center justify-center text-white"
+      >
+        <motion.div
+          initial={{ opacity: 0, y: -30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-center px-4"
+        >
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             DỰ ÁN ĐÃ THI CÔNG
           </h1>
-          <p className="text-xl text-gray-200 max-w-2xl mx-auto">
-            Những công trình thực tế mà Linh Dương Company đã tư vấn, cung cấp và lắp đặt
-          </p>
-        </div>
-      </div>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.15 }}
+            className="text-xl text-gray-200 max-w-2xl mx-auto"
+          >
+            Những công trình thực tế mà VIET HOME đã tư vấn, cung cấp và lắp đặt
+          </motion.p>
+        </motion.div>
+      </motion.div>
 
       <div className="max-w-7xl mx-auto px-4 py-16">
         {/* Filter */}
-        <div className="flex flex-wrap gap-3 mb-10 justify-center">
+        <motion.div
+          initial="hidden"
+          animate="show"
+          variants={{ hidden: {}, show: { transition: { staggerChildren: 0.06 } } }}
+          className="flex flex-wrap gap-3 mb-10 justify-center"
+        >
           {filters.map((f) => (
             <motion.button
               key={f}
+              variants={{ hidden: { opacity: 0, y: 10 }, show: { opacity: 1, y: 0 } }}
               whileTap={{ scale: 0.9 }}
               onClick={() => setActiveFilter(f)}
               className={`px-6 py-2 rounded-full text-sm font-medium transition-colors
-                ${
-                  activeFilter === f
-                    ? "bg-[#1a5276] text-white"
-                    : "border border-gray-300 hover:border-[#1a5276] hover:text-[#1a5276]"
+                ${activeFilter === f
+                  ? "bg-[#1a5276] text-white"
+                  : "border border-gray-300 hover:border-[#1a5276] hover:text-[#1a5276]"
                 }`}
             >
               {f}
             </motion.button>
           ))}
-        </div>
+        </motion.div>
 
         {/* Grid animation */}
-        <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <motion.div
+          initial="hidden"
+          animate="show"
+          variants={{ hidden: {}, show: { transition: { staggerChildren: 0.08 } } }}
+          layout
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
+        >
           <AnimatePresence>
             {filteredProjects.map((project) => (
               <motion.div
                 key={project.id}
                 layout
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
+                variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0 } }}
                 exit={{ opacity: 0, scale: 0.8 }}
                 transition={{ duration: 0.3 }}
                 className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300"
@@ -176,11 +203,16 @@ export default function DuAnClient() {
         </motion.div>
 
         {/* CTA */}
-        <div className="text-center mt-16">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="text-center mt-16"
+        >
           <button className="btn-primary px-12 py-4 text-base">
             XEM THÊM DỰ ÁN
           </button>
-        </div>
+        </motion.div>
       </div>
     </main>
   );

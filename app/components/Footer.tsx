@@ -4,18 +4,17 @@ export default function Footer() {
   return (
     <footer className="bg-[#1a2636] text-gray-300">
       <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        
+
         {/* Cột 1: Thông tin công ty */}
         <div>
           <h3 className="text-white font-bold text-base mb-4 uppercase tracking-wider">
-            LINH DƯƠNG COMPANY
+            VIET HOME
           </h3>
           <ul className="space-y-3 text-sm">
             <li className="flex gap-3">
               <span className="text-[#3498db] mt-0.5 text-lg">📍</span>
               <span>
-                Office & Showroom: Tầng 2, Tòa nhà Hoàng Thành, B6 Lô B, Ô đất D4, 
-                KĐT mới Cầu Giấy, P. Dịch Vọng, Q. Cầu Giấy, Hà Nội.
+                Office & Showroom: Lô MĐ 219 - Khu TĐC Tiên Dược - Mai Đình - Sóc Sơn - Hà Nội
               </span>
             </li>
             <li className="flex gap-3">
@@ -28,9 +27,9 @@ export default function Footer() {
             </li>
           </ul>
 
-          <a 
-            href="https://maps.app.goo.gl/mQuXt1vN2LvwH4Fs6" 
-            target="_blank" 
+          <a
+            href="https://maps.app.goo.gl/NxGDUraGGvHu1RiC8"
+            target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 mt-4 text-sm text-[#3498db] hover:text-[#5dade2] hover:underline transition-colors"
           >
@@ -45,17 +44,12 @@ export default function Footer() {
           </h3>
           <ul className="space-y-2 text-sm">
             <li>
-              Hotline 1:{" "}
-              <a href="tel:0968034333" className="text-white font-semibold hover:text-[#3498db] transition-colors">
-                0968.034.333
+              Hotline:{" "}
+              <a href="tel:0377778513" className="text-white font-semibold hover:text-[#3498db] transition-colors">
+                0377.778.513
               </a>
             </li>
-            <li>
-              Hotline 2:{" "}
-              <a href="tel:0919194588" className="text-white font-semibold hover:text-[#3498db] transition-colors">
-                091.919.4588
-              </a>
-            </li>
+
           </ul>
         </div>
 
@@ -68,12 +62,12 @@ export default function Footer() {
             {[
               { label: "Giải pháp lọc nước tổng", href: "/danh-muc-san-pham/he-thong-loc-nuoc-tong" },
               { label: "Giải pháp nước nóng trung tâm", href: "/danh-muc-san-pham/he-thong-nuoc-nong-trung-tam" },
-              { label: "Giải pháp cung cấp khí tươi", href: "/danh-muc-san-pham/he-thong-loc-va-cap-khi-tuoi" },
-              { label: "Giải pháp sưởi ấm dưới sàn", href: "/danh-muc-san-pham/he-thong-suoi-am-duoi-san" },
+              // { label: "Giải pháp cung cấp khí tươi", href: "/danh-muc-san-pham/he-thong-loc-va-cap-khi-tuoi" },
+              // { label: "Giải pháp sưởi ấm dưới sàn", href: "/danh-muc-san-pham/he-thong-suoi-am-duoi-san" },
             ].map((item) => (
               <li key={item.label}>
-                <Link 
-                  href={item.href} 
+                <Link
+                  href={item.href}
                   className="hover:text-white hover:underline transition-colors duration-200"
                 >
                   {item.label}
@@ -106,7 +100,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="border-t border-gray-700 py-5 text-center text-xs text-gray-500">
-        © {new Date().getFullYear()} Linh Dương Company. All rights reserved.
+        © {new Date().getFullYear()} VIET HOME. All rights reserved.
       </div>
     </footer>
   );

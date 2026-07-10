@@ -97,7 +97,7 @@ export default function HeroSlider() {
               priority={current === 0}
               sizes="100vw"
               className="object-cover object-center scale-[1.01]"
-              quality={100}
+              quality={82}
             />
           </motion.div>
 

@@ -63,15 +63,6 @@ export default function DieuKhoanDichVuPage() {
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 text-white w-full z-10">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.75, rotate: -8 }}
-            animate={{ opacity: 1, scale: 1, rotate: 0 }}
-            transition={{ duration: 0.7, ease: "easeOut" }}
-            className="w-20 h-20 bg-white/20 backdrop-blur-xl rounded-3xl flex items-center justify-center mb-8 shadow-xl shadow-black/10"
-          >
-            <FileText className="w-11 h-11 text-white" />
-          </motion.div>
-
           <motion.h1
             initial={{ opacity: 0, y: -40 }}
             animate={{ opacity: 1, y: 0 }}

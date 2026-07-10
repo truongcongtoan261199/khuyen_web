@@ -203,7 +203,7 @@ function Lightbox({
                 alt=""
                 fill
                 className="object-contain select-none"
-                quality={100}
+                quality={82}
                 priority
                 draggable={false}
                 sizes="90vw"

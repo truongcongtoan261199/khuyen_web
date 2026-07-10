@@ -187,7 +187,7 @@ export default function HomePage() {
                           fill
                           className={`transition-transform duration-700 group-hover:scale-110 ${product.objectFit || "object-cover"}`}
                           sizes="(max-width: 768px) 100vw, 50vw"
-                          quality={95}
+                          quality={82}
                           priority
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-[#1a5276]/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -274,7 +274,7 @@ export default function HomePage() {
       <LazySection>
         <section className="relative h-[400px] md:h-[460px] overflow-hidden">
           <Image
-            src="/images/slider/slide-4.png"
+            src="/images/slider/slide-33.png"
             alt="Chất lượng sản phẩm"
             fill
             className="object-cover scale-105"

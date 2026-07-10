@@ -91,7 +91,7 @@ function Lightbox({
               }}
               onClick={(e) => e.stopPropagation()}
             >
-              <Image src={images[activeIndex]} alt="" fill className="object-contain select-none" quality={100} priority draggable={false} />
+              <Image src={images[activeIndex]} alt="" fill className="object-contain select-none" quality={82} priority draggable={false} />
             </motion.div>
           </AnimatePresence>
 

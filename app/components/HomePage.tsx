@@ -11,7 +11,7 @@ import LazySection from "../components/LazySection";
 /* ─── Animation Variants ─── */
 const fadeUp = {
   hidden: { opacity: 0, y: 50 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut" } },
+  show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut" as const } },
 };
 
 const stagger = {
@@ -21,17 +21,17 @@ const stagger = {
 
 const scaleIn = {
   hidden: { opacity: 0, scale: 0.9 },
-  show: { opacity: 1, scale: 1, transition: { duration: 0.6, ease: "easeOut" } },
+  show: { opacity: 1, scale: 1, transition: { duration: 0.6, ease: "easeOut" as const } },
 };
 
 const slideLeft = {
   hidden: { opacity: 0, x: -60 },
-  show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: "easeOut" } },
+  show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: "easeOut" as const } },
 };
 
 const slideRight = {
   hidden: { opacity: 0, x: 60 },
-  show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: "easeOut" } },
+  show: { opacity: 1, x: 0, transition: { duration: 0.7, ease: "easeOut" as const } },
 };
 
 /* ─── Data ─── */

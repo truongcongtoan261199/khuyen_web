@@ -9,7 +9,7 @@ const fadeUp = {
   show: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.7, ease: "easeOut" }
+    transition: { duration: 0.7, ease: "easeOut" as const }
   },
 };
 
@@ -26,7 +26,7 @@ const stagger = {
 const cardHover = {
   hover: {
     y: -8,
-    transition: { duration: 0.4, ease: "easeOut" }
+    transition: { duration: 0.4, ease: "easeOut" as const }
   }
 };
 

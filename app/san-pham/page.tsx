@@ -9,7 +9,7 @@ import Breadcrumb from "../components/Breadcrumb";
 /* ─── Animation Variants ─── */
 const fadeUp = {
   hidden: { opacity: 0, y: 50 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut" } },
+  show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut" as const } },
 };
 
 const stagger = {

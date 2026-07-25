@@ -68,7 +68,7 @@ function Lightbox({
     <AnimatePresence>
       {open && (
         <motion.div
-          className="fixed inset-0 bg-black/95 z-[60] flex items-center justify-center"
+          className="fixed inset-0 bg-black/95 z-[60] flex items-start justify-center pt-[5vh] px-[5vw] pb-[5vh]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
@@ -90,7 +90,7 @@ function Lightbox({
           <AnimatePresence mode="wait">
             <motion.div
               key={activeIndex}
-              className="relative w-[92vw] md:w-[85vw] h-[85vh]"
+              className="relative w-full max-w-[85vw] max-h-[85vh]"
               initial={{ opacity: 0, x: 80, scale: 0.92 }}
               animate={{ opacity: 1, x: 0, scale: 1 }}
               exit={{ opacity: 0, x: -80, scale: 0.92 }}
@@ -108,7 +108,7 @@ function Lightbox({
               <img
                 src={images[activeIndex]}
                 alt=""
-                className="w-full h-full object-contain select-none"
+                className="w-full h-full object-contain select-none max-h-[85vh]"
                 draggable={false}
               />
             </motion.div>

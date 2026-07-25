@@ -54,6 +54,7 @@ function Lightbox({
 
   useEffect(() => {
     if (!open) return;
+    window.scrollTo({ top: 0, behavior: "instant" });
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
       if (e.key === "ArrowLeft") prev();

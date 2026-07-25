@@ -39,16 +39,18 @@ const products = [
   {
     title: "Hệ Thống Lọc Nước Tổng",
     href: "/danh-muc-san-pham/he-thong-loc-nuoc-tong",
-    img: "/images/san-pham/loc-nuoc-tong-v1.jpg",
+    img: "/images/san-pham/loc-nuoc-tong-v1.png",
     desc: "Giải pháp lọc nước tổng gia đình và công trình, loại bỏ tạp chất, kim loại nặng, vi khuẩn.",
     objectFit: "object-contain",
+    bgClass: "bg-gray-50",
   },
   {
     title: "Hệ Thống Nước Nóng Trung Tâm",
     href: "/danh-muc-san-pham/he-thong-nuoc-nong-trung-tam",
-    img: "/images/san-pham/nuoc-nong-trung-tam.jpg",
+    img: "/images/san-pham/nuoc-nong-trung-tam.png",
     desc: "Công nghệ Heat Pump tiết kiệm năng lượng, cung cấp nước nóng nhanh và an toàn.",
-    objectFit: "object-cover",
+    objectFit: "object-contain",
+    bgClass: "bg-gray-50",
   },
 ];
 
@@ -61,6 +63,8 @@ const projects = [
   { title: "Dự án nhà a Dũng – Hồng Tiến – Long Biên – Hà Nội", img: "/images/duandathuchien/hong-tien-long-bien-1.png", slug: "biet-thu-anh-dung-hong-tien-long-bien-ha-noi" },
   { title: "Dự án nhà chú Tuấn – Starlake – Tây Hồ", img: "/images/duandathuchien/starlake-tay-ho-1.png", slug: "biet-thu-anh-tuan-starlake-tay-ho-ha-noi" },
   { title: "Dự án nhà anh Cường – KĐT The Manor – Nguyễn Xiển", img: "/images/duandathuchien/the-manor-nguyen-xien-1.jpg", slug: "biet-thu-anh-cuong-the-manor-nguyen-xien-ha-noi" },
+  // { title: "Hệ thống nước nóng RHEEM & Lọc nước Clack – Nhà chị Thu tại Hoa Sữa, Vinhome Harmony, Long Biên", img: "/images/duandathuchien/hoa-sua-vinhome-harmony-1.jpg", slug: "du-an-chi-thu-hoa-sua-vinhome-harmony-long-bien" },
+  // { title: "Nước nóng tổng Daikin – Công trình tại Gia Lâm, Hà Nội", img: "/images/duandathuchien/gia-lam-daikin-1.jpg", slug: "du-an-gia-lam-nuoc-nong-daikin" },
 ];
 
 const reasons = [
@@ -180,7 +184,7 @@ export default function HomePage() {
                       href={product.href}
                       className="group block bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100 hover:border-[#1a5276]/20"
                     >
-                      <div className="overflow-hidden relative h-72 bg-white">
+                      <div className={`overflow-hidden relative ${product.bgClass || "bg-white"}`} style={{ aspectRatio: "1 / 1.12" }}>
                         <Image
                           src={product.img}
                           alt={product.title}
@@ -252,18 +256,14 @@ export default function HomePage() {
               <motion.div variants={slideRight} className="relative">
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/about/about_us.png"
+                    src="/images/about/about_us_1.png"
                     alt="Về VIET HOME"
                     width={600}
                     height={400}
                     className="w-full object-cover"
                   />
                 </div>
-                {/* Floating accent */}
-                <div className="absolute -bottom-5 -left-5 bg-[#1a5276] text-white px-6 py-4 rounded-2xl shadow-xl">
-                  <div className="text-2xl font-bold">Mới</div>
-                  <div className="text-xs text-blue-200">Thành lập 2024</div>
-                </div>
+
               </motion.div>
             </motion.div>
           </div>
@@ -332,8 +332,8 @@ export default function HomePage() {
                 <div className="w-20 h-1 bg-gradient-to-r from-[#1a5276] to-[#2196f3] mx-auto rounded-full mt-4" />
               </motion.div>
 
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {projects.map((project, index) => (
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                {projects.slice(0, 6).map((project, index) => (
                   <motion.div
                     key={index}
                     initial={{ opacity: 0, y: 30 }}
@@ -352,8 +352,8 @@ export default function HomePage() {
                         className="object-cover transition-transform duration-700 group-hover:scale-110"
                         sizes="(max-width: 768px) 50vw, 25vw"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500" />
-                      <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-6 group-hover:translate-y-0 transition-all duration-500">
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                      <div className="absolute bottom-0 left-0 right-0 p-4">
                         <div className="w-8 h-8 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mb-2 opacity-0 group-hover:opacity-100 transition-all duration-500 delay-100">
                           <ArrowRight className="w-4 h-4 text-white" />
                         </div>
@@ -408,7 +408,7 @@ export default function HomePage() {
                   Quý khách có thể trực tiếp trải nghiệm sản phẩm trước khi quyết định.
                 </p>
                 <a
-                  href="https://maps.app.goo.gl/65KezDh5BjxbZXjq6"
+                  href="https://maps.app.goo.gl/ud1jRNixKxgoXwqLA"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-[#1a5276] text-white px-8 py-4 rounded-xl font-semibold hover:bg-[#154360] transition-all duration-300 shadow-lg shadow-[#1a5276]/20 hover:shadow-xl hover:-translate-y-0.5"
@@ -421,10 +421,10 @@ export default function HomePage() {
               <motion.div variants={slideRight} className="relative">
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/banner/loc-tong-drop-banner.jpg"
+                    src="/images/banner/showroom-viet-home.png"
                     alt="Showroom VIET HOME"
-                    width={600}
-                    height={400}
+                    width={500}
+                    height={300}
                     className="w-full object-cover"
                   />
                 </div>
@@ -496,13 +496,13 @@ export default function HomePage() {
       <LazySection>
         <section className="relative py-24 overflow-hidden">
           <Image
-            src="/images/banner/loc-tong-drop-banner.jpg"
+            src="/images/banner/showroom-viet-home.png"
             alt="Đăng ký tư vấn miễn phí"
             fill
             className="object-cover"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-[#1a5276]/90 via-[#1a5276]/80 to-[#1a6e9e]/85" />
+          <div className="absolute inset-0 bg-black/30 backdrop-blur-sm" />
 
           {/* Decorative elements */}
           <div className="absolute inset-0 pointer-events-none">
@@ -518,12 +518,12 @@ export default function HomePage() {
             className="relative max-w-xl mx-auto px-4 text-center text-white"
           >
             <motion.div variants={fadeUp}>
-              <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm px-5 py-2 rounded-full text-sm text-blue-100 mb-6">
+              <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm px-5 py-2 rounded-full text-sm text-white/90 mb-6">
                 <Phone className="w-4 h-4" />
                 Liên hệ ngay
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">ĐĂNG KÝ TƯ VẤN MIỄN PHÍ</h2>
-              <p className="text-blue-100/80 mb-10 text-lg">
+              <p className="text-white/70 mb-10 text-lg">
                 Để lại thông tin, chúng tôi sẽ liên hệ tư vấn giải pháp phù hợp nhất
               </p>
             </motion.div>
@@ -650,11 +650,11 @@ export default function HomePage() {
                 >
                   <div className="flex items-center justify-center gap-2">
                     <Phone className="w-4 h-4 text-[#1a5276]" />
-                    <span>Hotline: <strong className="text-gray-700">0377.778.513</strong></span>
+                    <span>Hotline: <strong className="text-gray-700">0989.486.627</strong></span>
                   </div>
                   <div className="flex items-center justify-center gap-2">
                     <Mail className="w-4 h-4 text-[#1a5276]" />
-                    <span>Email: <strong className="text-gray-700">viet_home@gmail.com</strong></span>
+                    <span>Email: <strong className="text-gray-700">giaiphapcongngheviethome@gmail.com</strong></span>
                   </div>
                   <div className="flex items-center justify-center gap-2">
                     <MapPin className="w-4 h-4 text-[#1a5276]" />

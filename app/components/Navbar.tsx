@@ -166,10 +166,10 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-3 text-sm">
           <span className="text-gray-500">Hotline:</span>
           <a
-            href="tel:0377778513"
+            href="tel:0989486627"
             className="font-semibold text-[#1a5276] hover:text-red-600 transition-colors"
           >
-            0377.778.513
+            0989.486.627
           </a>
         </div>
 
@@ -248,11 +248,11 @@ export default function Navbar() {
               <div className="pt-6 border-t border-gray-100">
                 <p className="text-gray-500 mb-3">Liên hệ ngay qua hotline</p>
                 <div className="space-y-3">
-                  <a href="tel:0377778513" className="block text-2xl font-semibold text-[#1a5276]">
-                    0377.778.513
+                  <a href="tel:0989486627" className="block text-2xl font-semibold text-[#1a5276]">
+                    0989.486.627
                   </a>
                   <a href="tel:0919194588" className="block text-2xl font-semibold text-[#1a5276]">
-                    0377778513
+                    0989486627
                   </a>
                 </div>
               </div>

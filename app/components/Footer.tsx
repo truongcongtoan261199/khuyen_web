@@ -14,7 +14,7 @@ export default function Footer() {
             <li className="flex gap-3">
               <span className="text-[#3498db] mt-0.5 text-lg">📍</span>
               <span>
-                Office & Showroom: Lô MĐ 219 - Khu TĐC Tiên Dược - Mai Đình - Sóc Sơn - Hà Nội
+                Office & Showroom: 14 ĐỒNG DINH - CỔ LINH - LONG BIÊN - HÀ NỘI
               </span>
             </li>
             <li className="flex gap-3">
@@ -28,7 +28,7 @@ export default function Footer() {
           </ul>
 
           <a
-            href="https://maps.app.goo.gl/NxGDUraGGvHu1RiC8"
+            href="https://maps.app.goo.gl/bcZkQhn4UMfswJQG9"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 mt-4 text-sm text-[#3498db] hover:text-[#5dade2] hover:underline transition-colors"
@@ -45,8 +45,8 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             <li>
               Hotline:{" "}
-              <a href="tel:0377778513" className="text-white font-semibold hover:text-[#3498db] transition-colors">
-                0377.778.513
+              <a href="tel:0989486627" className="text-white font-semibold hover:text-[#3498db] transition-colors">
+                0989.486.627
               </a>
             </li>
 

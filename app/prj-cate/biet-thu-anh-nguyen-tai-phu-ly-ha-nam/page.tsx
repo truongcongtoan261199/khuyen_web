@@ -151,10 +151,10 @@ export default function ProjectPhuLyPage() {
             </h3>
 
             <a
-              href="tel:0377778513"
+              href="tel:0989486627"
               className="inline-block bg-white text-[#1a5276] font-bold px-10 py-4 rounded-2xl hover:bg-gray-100 active:scale-95 transition-all duration-200 shadow-md"
             >
-              Gọi ngay 0377.778.513
+              Gọi ngay 0989.486.627
             </a>
           </div>
         </div>

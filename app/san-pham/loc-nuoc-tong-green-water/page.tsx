@@ -39,23 +39,11 @@ const features = [
     bullets: [
       "Hệ thống được trang bị van sục rửa tự động, giúp tăng tuổi thọ của vật liệu lọc.",
       "Hệ thống thông minh tiết kiệm thời gian, chi phí vận hành cho người dùng.",
-      "Cảm biến phát hiện rò rỉ, cảnh báo tức thì khi có sự cố.",
+      "Cảm biến cảnh báo tức thì khi có sự cố.",
     ],
     image: "/images/san-pham/chi-tiet-san-pham/feature-cong-nghe-thong-minh.png",
     height: "h-[300px]",
     width: "w-full md:w-[630px]"
-  },
-  {
-    title: "Công nghệ lọc Vortech tiên tiến",
-    desc: "Thiết kế đĩa phân phối Vortech giúp tối ưu hóa dòng chảy, tăng hiệu suất lọc và kéo dài tuổi thọ vật liệu lọc.",
-    bullets: [
-      "Chịu lực vượt trội, ổn định trong quá trình sục rửa",
-      "Hệ thống tự làm sạch, hạn chế tắc nghẽn",
-      "Tiết kiệm đến 30% thời gian và chi phí vận hành",
-    ],
-    image: "/images/san-pham/chi-tiet-san-pham/feature-cong-nghe-vortech.png",
-    height: "h-[700px]",
-    width: "w-full md:w-[730px]"
   },
   {
     title: "Vật liệu lọc cao cấp nhập khẩu",
@@ -100,7 +88,6 @@ const specs = [
 ];
 
 const installImages = [
-  "/images/san-pham/chi-tiet-san-pham/lap-dat-1.jpg",
   "/images/san-pham/chi-tiet-san-pham/lap-dat-2.jpg",
   "/images/san-pham/chi-tiet-san-pham/lap-dat-3.jpg",
   "/images/san-pham/chi-tiet-san-pham/lap-dat-4.jpg",

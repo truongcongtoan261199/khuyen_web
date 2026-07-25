@@ -423,25 +423,25 @@ export default function DieuKhoanDichVuPage() {
 
             <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
               <a
-                href="tel:0377778513"
+                href="tel:0989486627"
                 className="group bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-3xl hover:bg-white/20 transition-all hover:scale-105"
               >
                 <div className="text-4xl mb-4">📞</div>
                 <div className="text-blue-200 mb-1">Hotline</div>
-                <div className="font-bold text-2xl">0377.778.513</div>
+                <div className="font-bold text-2xl">0989.486.627</div>
               </a>
 
               <a
-                href="mailto:viet_home@gmail.com"
+                href="mailto:giaiphapcongngheviethome@gmail.com"
                 className="group bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-3xl hover:bg-white/20 transition-all hover:scale-105"
               >
                 <div className="text-4xl mb-4">📧</div>
                 <div className="text-blue-200 mb-1">Email</div>
-                <div className="font-bold text-2xl">viet_home@gmail.com</div>
+                <div className="font-bold text-2xl">giaiphapcongngheviethome@gmail.com</div>
               </a>
 
               <a
-                href="https://maps.app.goo.gl/NxGDUraGGvHu1RiC8"
+                href="https://maps.app.goo.gl/bcZkQhn4UMfswJQG9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-3xl hover:bg-white/20 transition-all hover:scale-105"

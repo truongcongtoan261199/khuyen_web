@@ -194,8 +194,8 @@ export default function AmmuHeatPumpPage() {
               transition={{ duration: 0.5, delay: 0.8 }}
               className="mt-10"
             >
-              <a href="tel:0377778513" className="inline-block bg-[#1a5276] text-white font-semibold px-10 py-4 rounded-xl text-lg hover:bg-[#154360] transition">
-                Gọi ngay: 0377.778.513
+              <a href="tel:0989486627" className="inline-block bg-[#1a5276] text-white font-semibold px-10 py-4 rounded-xl text-lg hover:bg-[#154360] transition">
+                Gọi ngay: 0989.486.627
               </a>
             </motion.div>
           </motion.div>
@@ -368,8 +368,8 @@ export default function AmmuHeatPumpPage() {
         >
           <h2 className="text-3xl font-bold mb-4">Bạn cần tư vấn giải pháp Heat Pump AMMU?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">Đội ngũ kỹ thuật VIET HOME sẽ khảo sát miễn phí và đưa ra giải pháp tối ưu nhất cho nhu cầu sử dụng của bạn.</p>
-          <a href="tel:0377778513" className="inline-block bg-white text-[#1a5276] font-bold px-12 py-5 rounded-2xl text-xl hover:bg-gray-100 transition">
-            Gọi ngay: 0377.778.513
+          <a href="tel:0989486627" className="inline-block bg-white text-[#1a5276] font-bold px-12 py-5 rounded-2xl text-xl hover:bg-gray-100 transition">
+            Gọi ngay: 0989.486.627
           </a>
         </motion.div>
       </div>

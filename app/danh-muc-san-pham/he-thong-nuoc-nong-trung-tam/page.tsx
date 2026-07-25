@@ -339,10 +339,10 @@ export default function NuocNongTrungTamPage() {
             Liên hệ ngay để được khảo sát miễn phí và nhận báo giá tốt nhất
           </p>
           <a
-            href="tel:0377778513"
+            href="tel:0989486627"
             className="inline-block bg-white text-[#1a5276] font-bold px-12 py-4 rounded-xl text-lg hover:bg-gray-100 transition-colors"
           >
-            Gọi ngay: 0377.778.513
+            Gọi ngay: 0989.486.627
           </a>
         </motion.div>
       </div>

@@ -340,7 +340,7 @@ export default function ChinhSachBaoHanhPage() {
               <h3 className="font-bold text-3xl text-[#1a5276] mb-4">Hỗ trợ sửa chữa</h3>
               <p className="text-gray-600 leading-relaxed text-[17px]">
                 Sau khi hết thời gian bảo hành, VIET HOME vẫn hỗ trợ sửa chữa với mức giá ưu đãi.
-                Liên hệ hotline <span className="font-semibold">0377.778.513</span> để được tư vấn chi tiết.
+                Liên hệ hotline <span className="font-semibold">0989.486.627</span> để được tư vấn chi tiết.
               </p>
             </div>
           </motion.div>
@@ -368,19 +368,19 @@ export default function ChinhSachBaoHanhPage() {
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-              <a href="tel:0377778513" className="group bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-3xl hover:bg-white/20 transition-all hover:scale-105">
+              <a href="tel:0989486627" className="group bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-3xl hover:bg-white/20 transition-all hover:scale-105">
                 <div className="text-4xl mb-4">📞</div>
                 <div className="text-blue-200 mb-1">Hotline</div>
-                <div className="font-bold text-2xl">0377.778.513</div>
+                <div className="font-bold text-2xl">0989.486.627</div>
               </a>
 
-              <a href="mailto:viet_home@gmail.com" className="group bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-3xl hover:bg-white/20 transition-all hover:scale-105">
+              <a href="mailto:giaiphapcongngheviethome@gmail.com" className="group bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-3xl hover:bg-white/20 transition-all hover:scale-105">
                 <div className="text-4xl mb-4">📧</div>
                 <div className="text-blue-200 mb-1">Email</div>
-                <div className="font-bold text-2xl">viet_home@gmail.com</div>
+                <div className="font-bold text-2xl">giaiphapcongngheviethome@gmail.com</div>
               </a>
 
-              <a href="https://maps.app.goo.gl/NxGDUraGGvHu1RiC8" target="_blank" rel="noopener noreferrer" className="group bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-3xl hover:bg-white/20 transition-all hover:scale-105">
+              <a href="https://maps.app.goo.gl/bcZkQhn4UMfswJQG9" target="_blank" rel="noopener noreferrer" className="group bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-3xl hover:bg-white/20 transition-all hover:scale-105">
                 <div className="text-4xl mb-4">📍</div>
                 <div className="text-blue-200 mb-1">Địa chỉ</div>
                 <div className="font-bold text-xl leading-tight">Lô MĐ 219 - Tiên Dược - Sóc Sơn - Hà Nội</div>

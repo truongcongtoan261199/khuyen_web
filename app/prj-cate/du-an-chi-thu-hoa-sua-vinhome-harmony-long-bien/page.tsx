@@ -3,25 +3,25 @@ import Image from "next/image";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Biệt thự tại KĐT Pháp Vân, Hà Nội - VIET HOME",
+  title: "Hệ thống nước nóng RHEEM & Lọc nước Clack - Chị Thu tại Hoa Sữa, Vinhome Harmony, Long Biên - VIET HOME",
   description:
-    "Hệ thống lọc nước tổng RO kết hợp Hệ thống máy nước nóng trung tâm Heatpump 200L.",
+    "Công trình hệ thống nước nóng tổng RHEEM và lọc nước tổng Clack tại nhà chị Thu – Hoa Sữa, Vinhome Harmony, Long Biên, Hà Nội.",
 };
 
 const gallery = [
-  "/images/duandathuchien/phap-van-ha-noi-1.png",
-  "/images/duandathuchien/phap-van-ha-noi-2.png",
-  "/images/duandathuchien/phap-van-ha-noi-3.png",
+  "/images/duandathuchien/hoa-sua-vinhome-harmony-1.jpg",
+  "/images/duandathuchien/hoa-sua-vinhome-harmony-2.jpg",
+  "/images/duandathuchien/hoa-sua-vinhome-harmony-3.jpg",
 ];
 
-export default function ProjectVinhPage() {
+export default function ProjectChiThuPage() {
   return (
     <main className="bg-white">
       <Breadcrumb
         items={[
           { label: 'Trang chủ', href: '/' },
           { label: 'Dự án đã thi công', href: '/prj-cate/du-an' },
-          { label: 'Biệt Thự Tại KĐT Pháp Vân, Hà Nội' },
+          { label: 'Hệ thống nước nóng RHEEM & Lọc nước Clack - Chị Thu tại Hoa Sữa, Vinhome Harmony, Long Biên' },
         ]}
       />
 
@@ -29,7 +29,7 @@ export default function ProjectVinhPage() {
       <div className="relative h-[500px] overflow-hidden">
         <Image
           src={gallery[0]}
-          alt="Biệt thự KĐT Pháp Vân"
+          alt="Dự án Chị Thu tại Hoa Sữa, Vinhome Harmony, Long Biên"
           fill
           className="object-cover"
           priority
@@ -41,10 +41,10 @@ export default function ProjectVinhPage() {
           <div className="max-w-7xl mx-auto px-4 text-white">
             <div className="animate-fadeInUp">
               <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
-                BIỆT THỰ TẠI KĐT PHÁP VÂN, HÀ NỘI
+                HỆ THỐNG NƯỚC NÓNG RHEEM & LỌC NƯỚC CLACK
               </h1>
               <p className="text-lg md:text-xl max-w-2xl text-gray-100">
-                Giải pháp lọc nước tổng RO &amp; nước nóng trung tâm Heatpump 200L nâng tầm tiện nghi sống
+                Công trình nhà chị Thu tại Hoa Sữa, Vinhome Harmony, Long Biên, Hà Nội – triển khai toàn bộ giải pháp lọc nước tổng và nước nóng trung tâm
               </p>
             </div>
           </div>
@@ -62,10 +62,7 @@ export default function ProjectVinhPage() {
               Giới thiệu dự án
             </h2>
             <p className="text-gray-600 leading-relaxed text-[17px]">
-              Dự án biệt thự tại KĐT Pháp Vân (Hà Nội) được triển khai với mục tiêu nâng cao
-              chất lượng sống thông qua hệ thống lọc nước tổng và nước nóng trung tâm.
-              Giải pháp này giúp cung cấp nguồn nước sạch tinh khiết, loại bỏ tạp chất
-              và kim loại nặng, đồng thời đảm bảo nhiệt độ nước ổn định trong mọi điều kiện sử dụng.
+              Công trình tại Hoa Sữa, Vinhome Harmony, Long Biên, Hà Nội được triển khai hệ thống nước nóng tổng RHEEM kết hợp lọc nước tổng Clack. Giải pháp toàn diện này mang đến nguồn nước sạch tinh khiết cho toàn bộ ngôi nhà cùng nguồn nước nóng ổn định, tiết kiệm năng lượng, đáp ứng mọi nhu cầu sinh hoạt của gia đình.
             </p>
           </div>
 
@@ -86,7 +83,7 @@ export default function ProjectVinhPage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-                  <div className="absolute bottom-5 left-5 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-2 group-hover:translate-y-0">
+                  <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-2 group-hover:translate-y-0">
                     <p className="text-sm font-medium">Ảnh {i + 1}</p>
                   </div>
                 </div>
@@ -102,10 +99,10 @@ export default function ProjectVinhPage() {
 
             <ul className="space-y-5 text-gray-600">
               {[
-                "Hệ thống lọc nước tổng RO",
-                "Hệ thống nước nóng trung tâm Heatpump 200L",
-                "Cung cấp nước sạch cho toàn bộ ngôi nhà",
-                "Tối ưu tiết kiệm năng lượng & chi phí vận hành",
+                "Hệ thống nước nóng tổng RHEEM – tiết kiệm điện năng, nước nóng tức thì",
+                "Hệ thống lọc nước tổng Clack – đa tầng, loại bỏ tạp chất & kim loại nặng",
+                "Cung cấp nước sạch & nước nóng ổn định cho toàn bộ ngôi nhà",
+                "Giải pháp toàn diện cho biệt thự cao cấp",
               ].map((item, i) => (
                 <li
                   key={i}
@@ -132,11 +129,11 @@ export default function ProjectVinhPage() {
 
             <div className="space-y-6 text-sm">
               {[
-                { label: "Địa điểm", value: "KĐT Pháp Vân, Hà Nội" },
+                { label: "Địa điểm", value: "Hoa Sữa, Vinhome Harmony, Long Biên, Hà Nội" },
+                { label: "Chủ đầu tư", value: "Chị Thu" },
                 { label: "Loại công trình", value: "Biệt thự" },
-                { label: "Hạng mục", value: "Lọc nước tổng & Nước nóng trung tâm" },
-                { label: "Thiết bị", value: "RO, HEATPUMP" },
-                { label: "Năm thực hiện", value: "2026" },
+                { label: "Hạng mục", value: "Nước nóng RHEEM & Lọc nước Clack" },
+                { label: "Thời gian", value: "2026" },
               ].map((info, i) => (
                 <div key={i} className="flex flex-col">
                   <span className="text-gray-500 text-sm">{info.label}</span>
@@ -152,14 +149,14 @@ export default function ProjectVinhPage() {
             style={{ animationDelay: "400ms" }}
           >
             <h3 className="font-bold text-2xl mb-5 leading-tight">
-              Bạn muốn giải pháp tương tự?
+              Cần tư vấn giải pháp cho công trình của bạn?
             </h3>
 
             <a
               href="tel:0989486627"
               className="inline-block bg-white text-[#1a5276] font-bold px-10 py-4 rounded-2xl hover:bg-gray-100 active:scale-95 transition-all duration-200 shadow-md"
             >
-              Gọi tư vấn ngay
+              Gọi ngay 0989.486.627
             </a>
           </div>
         </div>

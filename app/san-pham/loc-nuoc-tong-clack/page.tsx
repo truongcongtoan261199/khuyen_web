@@ -451,7 +451,7 @@ export default function Page() {
 
             <div className="space-y-6">
               <div>
-                <h4 className="font-semibold text-lg mb-2">1. Van điều khiển tự động Clack – ổn định số 1 thế giới</h4>
+                <h4 className="font-semibold text-lg mb-2">1. Van điều khiển tự động Clack – ổn định an toàn</h4>
                 <p>Van Clack được sản xuất 100% tại Mỹ, sử dụng công nghệ điều khiển thông minh, tuổi thọ cao và khả năng vận hành trơn tru ngay cả trong môi trường nước khó xử lý. Van tự động rửa ngược – rửa xuôi – hoàn nguyên theo đúng chu trình, giúp hệ thống luôn duy trì hiệu suất tối đa.</p>
               </div>
 

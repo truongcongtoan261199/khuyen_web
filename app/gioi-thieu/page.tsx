@@ -65,7 +65,7 @@ export default function GioiThieuPage() {
 
           <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
             <p className="indent-8">
-              VIỆT HOME tự hào là một trong những đơn vị hàng đầu tại Việt Nam với chuyên môn cao trong lĩnh vực cung cấp giải pháp toàn diện về <strong>lọc nước trung tâm, nước nóng trung tâm Heatpump</strong> với đa dạng phân khúc từ các thương hiệu hàng đầu thế giới.
+              Với sứ mệnh mang đến nguồn nước sạch, an toàn và bền vững cho người Việt, Việt Home không ngừng nghiên cứu, đổi mới và phát triển các giải pháp xử lý nước tổng, nước nóng tổng hiện đại. Chúng tôi cam kết mang đến những giải pháp tối ưu, góp phần bảo vệ sức khỏe, nâng cao chất lượng cuộc sống và tạo dựng giá trị bền vững cho mỗi gia đình Việt.
             </p>
 
             <p className="indent-8">
@@ -111,7 +111,7 @@ export default function GioiThieuPage() {
           </p>
 
           <p className="text-gray-600 text-lg leading-relaxed max-w-4xl mb-6 indent-8">
-            Hệ thống nước nóng trung tâm Eminent, Rheem… những thương hiệu hàng đầu trên thế giới đến từ Mỹ, Nhật, Úc, Đức, Ý...
+            Hệ thống nước nóng trung tâm Eminent, Rheem… những thương hiệu có tên tuổi uy tín trên thế giới đến từ Mỹ, Nhật, Úc, Đức, Ý...
           </p>
 
           <ul className="text-gray-600 text-lg leading-relaxed max-w-4xl space-y-3 ml-8 mb-10">
@@ -484,11 +484,11 @@ export default function GioiThieuPage() {
                 >
                   <div className="flex items-center justify-center gap-2">
                     <Phone className="w-4 h-4 text-[#1a5276]" />
-                    <span>Hotline: <strong className="text-gray-700">0377.778.513</strong></span>
+                    <span>Hotline: <strong className="text-gray-700">0989.486.627</strong></span>
                   </div>
                   <div className="flex items-center justify-center gap-2">
                     <Mail className="w-4 h-4 text-[#1a5276]" />
-                    <span>Email: <strong className="text-gray-700">viet_home@gmail.com</strong></span>
+                    <span>Email: <strong className="text-gray-700">giaiphapcongngheviethome@gmail.com</strong></span>
                   </div>
                   <div className="flex items-center justify-center gap-2">
                     <MapPin className="w-4 h-4 text-[#1a5276]" />

@@ -10,9 +10,9 @@ const products = [
     id: "loc-nuoc-tong-green-water",
     name: "Hệ Thống Lọc Nước Tổng Việt Nam",
     description: "Hệ thống lọc nước tổng Green Water với đa dạng các cấp lọc, đa dạng công suất lọc và vật liệu lọc phù hợp với nhiều nguồn nước khác nhau tại Việt Nam...",
-    img: "/images/san-pham/may-loc-nuoc-tong-green-water.webp",
-    imgWidth: 585,
-    imgHeight: 585,
+    img: "/images/san-pham/may-loc-nuoc-tong-green-water.png",
+    imgWidth: 900,
+    imgHeight: 800,
     priceRange: "Chi tiết sản phẩm",
     highlight: "Bảo hành 5 năm",
   },
@@ -20,7 +20,7 @@ const products = [
     id: "loc-nuoc-tong-kalyxx",
     name: "Hệ Thống Lọc Nước Tổng Công Nghệ Từ Trường",
     description: "Công nghệ xử lý nước IPS KalyxX phát triển tại Châu Âu, ứng dụng nguyên lý phân cực điện hóa TGP® tiên tiến trong chống đóng cặn cho hệ thống nước...",
-    img: "/images/san-pham/loc-nuoc-tong-kalyxx.png",
+    img: "/images/san-pham/loc-nuoc-tong-kalyx.png",
     imgWidth: 800,
     imgHeight: 800,
     priceRange: "Chi tiết sản phẩm",
@@ -30,9 +30,9 @@ const products = [
     id: "loc-nuoc-tong-clack",
     name: "Hệ Thống Lọc Nước Tổng Clack Mỹ",
     description: "Clack là thương hiệu hàng đầu của Mỹ trong lĩnh vực giải pháp lọc nước tổng, nổi tiếng toàn cầu với độ bền vượt trội, khả năng xử lý nước mạnh mẽ và độ ổn định...",
-    img: "/images/san-pham/loc-nuoc-tong-clack.jpg",
-    imgWidth: 600,
-    imgHeight: 600,
+    img: "/images/san-pham/loc-nuoc-tong-clack.png",
+    imgWidth: 800,
+    imgHeight: 800,
     priceRange: "Chi tiết sản phẩm",
     highlight: "Bảo hành 5 năm",
   },
@@ -318,10 +318,10 @@ export default function HeThongLocNuocTongPage() {
             Đội ngũ kỹ thuật của VIET HOME sẽ khảo sát miễn phí và đưa ra giải pháp tối ưu nhất cho ngôi nhà của bạn.
           </p>
           <a
-            href="tel:0377778513"
+            href="tel:0989486627"
             className="inline-block bg-white text-[#1a5276] font-bold px-12 py-4 rounded-xl text-lg hover:bg-gray-100 transition-colors"
           >
-            Gọi ngay: 0377.778.513
+            Gọi ngay: 0989.486.627
           </a>
         </motion.div>
       </div>

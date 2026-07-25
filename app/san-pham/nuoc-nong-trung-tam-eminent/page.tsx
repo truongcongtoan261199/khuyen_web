@@ -20,7 +20,6 @@ const installImages = [
   "/images/san-pham/chi-tiet-san-pham/lap-dat-eminent-3.jpg",
   "/images/san-pham/chi-tiet-san-pham/lap-dat-eminent-4.jpg",
   "/images/san-pham/chi-tiet-san-pham/lap-dat-eminent-5.jpg",
-  "/images/san-pham/chi-tiet-san-pham/lap-dat-eminent-6.jpg",
 ];
 
 const highlights = [
@@ -161,8 +160,8 @@ export default function EminentHeatPumpPage() {
               transition={{ duration: 0.5, delay: 0.8 }}
               className="mt-10"
             >
-              <a href="tel:0377778513" className="inline-block bg-[#1a5276] text-white font-semibold px-10 py-4 rounded-xl text-lg hover:bg-[#154360] transition">
-                Gọi ngay: 0377.778.513
+              <a href="tel:0989486627" className="inline-block bg-[#1a5276] text-white font-semibold px-10 py-4 rounded-xl text-lg hover:bg-[#154360] transition">
+                Gọi ngay: 0989.486.627
               </a>
             </motion.div>
           </motion.div>
@@ -435,8 +434,8 @@ export default function EminentHeatPumpPage() {
         >
           <h2 className="text-3xl font-bold mb-4">Bạn cần tư vấn giải pháp Heat Pump Eminent?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">Đội ngũ VIET HOME sẽ khảo sát miễn phí, tư vấn và báo giá tốt nhất cho hệ thống nước nóng trung tâm Eminent Thái Lan.</p>
-          <a href="tel:0377778513" className="inline-block bg-white text-[#1a5276] font-bold px-12 py-5 rounded-2xl text-xl hover:bg-gray-100 transition">
-            Gọi ngay: 0377.778.513
+          <a href="tel:0989486627" className="inline-block bg-white text-[#1a5276] font-bold px-12 py-5 rounded-2xl text-xl hover:bg-gray-100 transition">
+            Gọi ngay: 0989.486.627
           </a>
         </motion.div>
       </div>

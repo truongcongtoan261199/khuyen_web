@@ -71,6 +71,22 @@ const projects = [
     img: "/images/duandathuchien/the-manor-nguyen-xien-1.jpg",
     category: "Lọc nước tổng",
   },
+  {
+    id: 9,
+    slug: "du-an-chi-thu-hoa-sua-vinhome-harmony-long-bien",
+    title: "Hệ thống nước nóng RHEEM & Lọc nước Clack – Nhà chị Thu tại Hoa Sữa, Vinhome Harmony, Long Biên",
+    location: "Hoa Sữa, Vinhome Harmony, Long Biên, Hà Nội",
+    img: "/images/duandathuchien/hoa-sua-vinhome-harmony-1.jpg",
+    category: "Toàn bộ giải pháp",
+  },
+  {
+    id: 10,
+    slug: "du-an-gia-lam-nuoc-nong-daikin",
+    title: "Nước nóng tổng Daikin – Công trình tại Gia Lâm, Hà Nội",
+    location: "Gia Lâm, Hà Nội",
+    img: "/images/duandathuchien/gia-lam-daikin-1.jpg",
+    category: "Nước nóng trung tâm",
+  },
 ];
 
 const filters = [

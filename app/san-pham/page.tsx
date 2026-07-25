@@ -21,7 +21,7 @@ const categories = [
   {
     title: "Hệ Thống Lọc Nước Tổng",
     description: "Giải pháp lọc nước toàn nhà, loại bỏ tạp chất, kim loại nặng, vi khuẩn và clo dư thừa. Đảm bảo nguồn nước sạch cho cả gia đình.",
-    img: "/images/san-pham/loc-tong-icon.png",
+    img: "/images/san-pham/loc-nuoc-tong-v1.png",
     href: "/danh-muc-san-pham/he-thong-loc-nuoc-tong",
     icon: Droplets,
     count: "3 sản phẩm",
@@ -30,7 +30,7 @@ const categories = [
   {
     title: "Hệ Thống Nước Nóng Trung Tâm",
     description: "Máy nước nóng Heat Pump Sanden (Nhật Bản) & Rheem (Úc) – tiết kiệm điện, an toàn và bền bỉ cho cả gia đình.",
-    img: "/images/san-pham/nuoc-nong-trung-tam-icon.jpg",
+    img: "/images/san-pham/nuoc-nong-trung-tam.png",
     href: "/danh-muc-san-pham/he-thong-nuoc-nong-trung-tam",
     icon: Flame,
     count: "3 sản phẩm",
@@ -118,11 +118,11 @@ export default function SanPhamPage() {
                 className="group block bg-white border border-gray-100 rounded-3xl overflow-hidden hover:shadow-2xl transition-all duration-500"
               >
                 {/* Image */}
-                <div className="relative h-80 overflow-hidden bg-gray-50">
+                <div className="relative overflow-hidden bg-gray-50" style={{ aspectRatio: "1 / 1" }}>
                   <img
                     src={category.img}
                     alt={category.title}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#1a5276]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
@@ -232,10 +232,10 @@ export default function SanPhamPage() {
                 <ArrowRight className="w-5 h-5" />
               </Link>
               <a
-                href="tel:0377778513"
+                href="tel:0989486627"
                 className="inline-flex items-center justify-center gap-2 border-2 border-white/40 text-white px-10 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all duration-300"
               >
-                📞 Gọi ngay: 0377.778.513
+                📞 Gọi ngay: 0989.486.627
               </a>
             </div>
           </div>

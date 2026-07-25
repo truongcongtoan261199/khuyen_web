@@ -97,7 +97,7 @@ export default function LienHePage() {
                 <div>
                   <h3 className="font-semibold text-xl mb-2 text-gray-800">Office & Showroom</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Lô MĐ 219 - Khu TĐC Tiên Dược - Mai Đình - Sóc Sơn - Hà Nội
+                    14 ĐỒNG DINH - CỔ LINH - LONG BIÊN - HÀ NỘI
                   </p>
                 </div>
               </motion.div>
@@ -122,8 +122,8 @@ export default function LienHePage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-xl mb-2 text-gray-800">Hotline tư vấn & hỗ trợ</h3>
-                  <a href="tel:0377778513" className="text-3xl font-bold text-[#1a5276] hover:text-red-600 transition-all hover:translate-x-2 inline-block">
-                    0377.778.513
+                  <a href="tel:0989486627" className="text-3xl font-bold text-[#1a5276] hover:text-red-600 transition-all hover:translate-x-2 inline-block">
+                    0989.486.627
                   </a>
                 </div>
               </motion.div>
@@ -135,8 +135,8 @@ export default function LienHePage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-xl mb-2 text-gray-800">Email</h3>
-                  <a href="mailto:viet_home@gmail.com" className="text-lg text-[#1a5276] hover:text-red-600 transition-colors font-medium">
-                    viet_home@gmail.com
+                  <a href="mailto:giaiphapcongngheviethome@gmail.com" className="text-lg text-[#1a5276] hover:text-red-600 transition-colors font-medium">
+                    giaiphapcongngheviethome@gmail.com
                   </a>
                 </div>
               </motion.div>
@@ -144,7 +144,7 @@ export default function LienHePage() {
               {/* Google Maps Button */}
               <motion.div variants={fadeUp} className="pt-2">
                 <a
-                  href="https://maps.app.goo.gl/NxGDUraGGvHu1RiC8"
+                  href="https://maps.app.goo.gl/bcZkQhn4UMfswJQG9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 bg-[#1a5276] text-white px-8 py-4 rounded-2xl hover:bg-[#154360] transition-all duration-300 hover:shadow-xl hover:-translate-y-1 font-semibold"
@@ -250,7 +250,7 @@ export default function LienHePage() {
       <div className="max-w-7xl mx-auto px-4 pb-20">
         <div className="rounded-3xl overflow-hidden shadow-2xl">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.9999999999995!2d105.785!3d21.035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDAyJzA2LjAiTiAxMDXCsDQ3JzA2LjAiRQ!5e0!3m2!1svi!2s!4v1720000000000"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6304.1252612755625!2d105.9115251!3d21.0213503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a9232dc997cd%3A0x51266feecb928541!2zMTRBIFAuIMSQ4buTbmcgRGluaCwgVOG7lSA3LCBMb25nIEJpw6puLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e1!3m2!1svi!2s!4v1784990151199!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
             width="100%"
             height="480"
             style={{ border: 0 }}
@@ -334,11 +334,11 @@ export default function LienHePage() {
                 >
                   <div className="flex items-center justify-center gap-2">
                     <Phone className="w-4 h-4 text-[#1a5276]" />
-                    <span>Hotline: <strong className="text-gray-700">0377.778.513</strong></span>
+                    <span>Hotline: <strong className="text-gray-700">0989.486.627</strong></span>
                   </div>
                   <div className="flex items-center justify-center gap-2">
                     <Mail className="w-4 h-4 text-[#1a5276]" />
-                    <span>Email: <strong className="text-gray-700">viet_home@gmail.com</strong></span>
+                    <span>Email: <strong className="text-gray-700">giaiphapcongngheviethome@gmail.com</strong></span>
                   </div>
                   <div className="flex items-center justify-center gap-2">
                     <MapPin className="w-4 h-4 text-[#1a5276]" />

@@ -15,16 +15,15 @@ const images = [
 ];
 
 const installImages = [
-  "/images/san-pham/nuoc-nong-rheem-3.jpg",
-  "/images/san-pham/chi-tiet-san-pham/rheem-lap-dat-2.jpg",
-  "/images/san-pham/chi-tiet-san-pham/rheem-lap-dat-3.jpg",
-  "/images/san-pham/chi-tiet-san-pham/rheem-lap-dat-4.jpg",
-  "/images/san-pham/chi-tiet-san-pham/rheem-lap-dat-5.jpg",
+  "/images/san-pham/chi-tiet-san-pham/rheem-lap-dat-1.png",
+  "/images/san-pham/chi-tiet-san-pham/rheem-lap-dat-2.png",
+  "/images/san-pham/chi-tiet-san-pham/rheem-lap-dat-3.png",
+  "/images/san-pham/chi-tiet-san-pham/rheem-lap-dat-4.png",
 ];
 
 const highlights = [
   "COP 5.1 – Tiết kiệm lên đến 80% điện năng",
-  "Bình thép không gỉ 316L cao cấp – Không cần thanh Anode",
+  "Bình thép không gỉ chất liệu cao cấp cao cấp – Không cần thanh Anode",
   "Dải nhiệt vận hành −7°C đến 43°C",
   "Môi chất lạnh R290 (GWP = 0.02) thân thiện môi trường",
   "Độ ồn siêu êm chỉ 47 dB",
@@ -136,7 +135,7 @@ export default function RheemHeatPumpPage() {
               Máy Bơm Nhiệt Heat Pump Rheem AmbiPower Split 320L
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Hệ thống nước nóng trung tâm tiêu chuẩn Úc – Giải pháp đầu tư bền vững cho biệt thự cao cấp. Bình thép không gỉ 316L, COP 5.1, tiết kiệm đến 80% điện năng.
+              Hệ thống nước nóng trung tâm tiêu chuẩn Úc – Giải pháp đầu tư bền vững cho biệt thự cao cấp. Bình thép không gỉ chất liệu cao cấp, COP 5.1, tiết kiệm đến 80% điện năng.
             </p>
 
             <div className="space-y-4 text-lg">
@@ -160,8 +159,8 @@ export default function RheemHeatPumpPage() {
               transition={{ duration: 0.5, delay: 0.8 }}
               className="mt-10"
             >
-              <a href="tel:0377778513" className="inline-block bg-[#1a5276] text-white font-semibold px-10 py-4 rounded-xl text-lg hover:bg-[#154360] transition">
-                Gọi ngay: 0377.778.513
+              <a href="tel:0989486627" className="inline-block bg-[#1a5276] text-white font-semibold px-10 py-4 rounded-xl text-lg hover:bg-[#154360] transition">
+                Gọi ngay: 0989.486.627
               </a>
             </motion.div>
           </motion.div>
@@ -228,7 +227,7 @@ export default function RheemHeatPumpPage() {
             </p>
 
             <p>
-              Dòng <strong>AmbiPower® Split 320L</strong> là đỉnh cao công nghệ heat pump của Rheem, tích hợp môi chất lạnh tự nhiên <strong>R290</strong>, bình thép không gỉ <strong>316L</strong> và hệ số hiệu suất <strong>COP 5.1</strong> – mức tiết kiệm điện lên đến 80% so với bình nóng lạnh điện trở truyền thống.
+              Dòng <strong>AmbiPower® Split 320L</strong> là đỉnh cao công nghệ heat pump của Rheem, tích hợp môi chất lạnh tự nhiên <strong>R290</strong>, bình thép không gỉ <strong>chất liệu cao cấp</strong> và hệ số hiệu suất <strong>COP 5.1</strong> – mức tiết kiệm điện lên đến 80% so với bình nóng lạnh điện trở truyền thống.
             </p>
           </div>
         </motion.section>
@@ -277,7 +276,7 @@ export default function RheemHeatPumpPage() {
               <div className="flex gap-4">
                 <CheckCircle2 className="w-7 h-7 text-emerald-600 mt-1 flex-shrink-0" />
                 <div>
-                  <strong>Bình thép không gỉ 316L</strong>
+                  <strong>Bình thép không gỉ chất liệu cao cấp</strong>
                   <p>Vật liệu y tế và hàng hải, không cần thanh Anode, chống ăn mòn vĩnh viễn.</p>
                 </div>
               </div>
@@ -319,7 +318,7 @@ export default function RheemHeatPumpPage() {
           <div className="grid md:grid-cols-2 gap-x-12 gap-y-6 text-lg">
             <div><strong>Model:</strong> T565E32AM0 (Split)</div>
             <div><strong>Dung tích:</strong> 325 Lít</div>
-            <div><strong>Vật liệu bình:</strong> Thép không gỉ 316L</div>
+            <div><strong>Vật liệu bình:</strong> Thép không gỉ chất liệu cao cấp</div>
             <div><strong>Hệ số COP:</strong> 5.1 (tại 33°C)</div>
             <div><strong>Công suất gia nhiệt:</strong> 5.9 kW</div>
             <div><strong>Môi chất lạnh:</strong> R290 (GWP = 0.02)</div>
@@ -492,8 +491,8 @@ export default function RheemHeatPumpPage() {
         >
           <h2 className="text-3xl font-bold mb-4">Bạn cần tư vấn giải pháp Heat Pump Rheem?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">Đội ngũ VTech sẽ khảo sát miễn phí, tư vấn và báo giá tốt nhất cho hệ thống nước nóng trung tâm Rheem AmbiPower Split 320L.</p>
-          <a href="tel:0377778513" className="inline-block bg-white text-[#1a5276] font-bold px-12 py-5 rounded-2xl text-xl hover:bg-gray-100 transition">
-            Gọi ngay: 0377.778.513
+          <a href="tel:0989486627" className="inline-block bg-white text-[#1a5276] font-bold px-12 py-5 rounded-2xl text-xl hover:bg-gray-100 transition">
+            Gọi ngay: 0989.486.627
           </a>
         </motion.div>
       </div>

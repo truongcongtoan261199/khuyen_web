@@ -12,7 +12,6 @@ const images = [
   "/images/san-pham/chi-tiet-san-pham/nuoc-nong-trung-tam-ammu-0.jpg",
   "/images/san-pham/chi-tiet-san-pham/nuoc-nong-trung-tam-ammu-1.jpg",
   "/images/san-pham/chi-tiet-san-pham/nuoc-nong-trung-tam-ammu-2.jpg",
-  "/images/san-pham/chi-tiet-san-pham/nuoc-nong-trung-tam-ammu-3.jpg",
 ];
 
 const installImages = [
@@ -105,13 +104,10 @@ function Lightbox({
               }}
               onClick={(e) => e.stopPropagation()}
             >
-              <Image
+              <img
                 src={images[activeIndex]}
                 alt=""
-                fill
-                className="object-contain select-none"
-                quality={82}
-                priority
+                className="w-full h-full object-contain select-none"
                 draggable={false}
               />
             </motion.div>

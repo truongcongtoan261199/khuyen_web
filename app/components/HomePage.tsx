@@ -274,10 +274,10 @@ export default function HomePage() {
       <LazySection>
         <section className="relative h-[400px] md:h-[460px] overflow-hidden">
           <Image
-            src="/images/slider/slide-33.png"
+            src="/images/slider/slide-004.png"
             alt="Chất lượng sản phẩm"
             fill
-            className="object-cover scale-105"
+            className="object-cover object-bottom scale-105 blur-[2px]"
             sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#1a5276]/90 via-[#1a5276]/70 to-transparent" />

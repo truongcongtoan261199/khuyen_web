@@ -9,10 +9,9 @@ import Breadcrumb from "../../components/Breadcrumb";
 /* ====================== DATA ====================== */
 
 const images = [
-  "/images/san-pham/chi-tiet-san-pham/may-loc-nuoc-tong-green-water-detail-0.jpg",
-  "/images/san-pham/chi-tiet-san-pham/may-loc-nuoc-tong-green-water-detail-1.jpg",
-  "/images/san-pham/chi-tiet-san-pham/may-loc-nuoc-tong-green-water-detail-2.jpg",
-  "/images/san-pham/chi-tiet-san-pham/may-loc-nuoc-tong-green-water-detail-3.jpg",
+  "/images/san-pham/chi-tiet-san-pham/loc_tt_1.jpg",
+  "/images/san-pham/chi-tiet-san-pham/loc_tt_2.jpg",
+  "/images/san-pham/chi-tiet-san-pham/loc_tt_3.jpg",
 ];
 
 const filterStages = [
@@ -45,7 +44,7 @@ const features = [
       "Hoạt động liên tục 24/7 ngay khi nước chảy qua thiết bị",
       "Giữ nguyên các khoáng chất có lợi tự nhiên trong nước",
     ],
-    image: "/images/san-pham/chi-tiet-san-pham/feature-cong-nghe-tu-truong.png",
+    image: "/images/san-pham/chi-tiet-san-pham/feature-cong-nghe-tu-truong_v1.png",
     height: "h-[600px]"
   },
   {
@@ -100,12 +99,11 @@ const certificates = [
 ];
 
 const installImages = [
-  "/images/san-pham/chi-tiet-san-pham/lap-dat-1.jpg",
-  "/images/san-pham/chi-tiet-san-pham/lap-dat-2.jpg",
-  "/images/san-pham/chi-tiet-san-pham/lap-dat-3.jpg",
-  "/images/san-pham/chi-tiet-san-pham/lap-dat-4.jpg",
-  "/images/san-pham/chi-tiet-san-pham/lap-dat-5.jpg",
-  "/images/san-pham/chi-tiet-san-pham/lap-dat-6.jpg",
+  "/images/san-pham/chi-tiet-san-pham/loc_tt_thuc_te_1.jpg",
+  "/images/san-pham/chi-tiet-san-pham/loc_tt_thuc_te_2.jpg",
+  "/images/san-pham/chi-tiet-san-pham/loc_tt_thuc_te_3.jpg",
+  "/images/san-pham/chi-tiet-san-pham/loc_tt_thuc_te_4.jpg",
+  "/images/san-pham/chi-tiet-san-pham/loc_tt_thuc_te_5.jpg"
 ];
 
 const tabs = [

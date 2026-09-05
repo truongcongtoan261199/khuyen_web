@@ -220,13 +220,13 @@ export default function EminentHeatPumpPage() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-3xl font-bold text-[#1a5276] mb-6">
-            Eminent – Chuyên gia máy nước nóng tổng Heat Pump số 1 Thái Lan
+            Eminent – Chuyên gia máy nước nóng tổng Heat Pump cao cấp Thái Lan
           </h2>
 
           <div className="space-y-5 text-lg leading-relaxed">
             <p>
               Thành lập từ năm <strong>1978</strong>, Eminent là một trong những thương
-              hiệu máy nước nóng và Heat Pump hàng đầu tại Thái Lan với gần
+              hiệu máy nước nóng và Heat Pump tại Thái Lan với gần
               <strong> 50 năm kinh nghiệm</strong> trong lĩnh vực cung cấp giải pháp nước
               nóng trung tâm. Các sản phẩm của Eminent hiện được sử dụng rộng rãi tại
               Thái Lan, Việt Nam và nhiều quốc gia Châu Á nhờ chất lượng ổn định,
@@ -346,7 +346,7 @@ export default function EminentHeatPumpPage() {
           <div className="space-y-5 text-lg leading-relaxed">
             <p>
               Một trong những điểm tạo nên danh tiếng của Heat Pump Eminent là việc sử
-              dụng các linh kiện đến từ những thương hiệu hàng đầu thế giới nhằm đảm
+              dụng các linh kiện đến từ những thương hiệu thế giới nhằm đảm
               bảo hiệu suất và độ bền lâu dài.
             </p>
 

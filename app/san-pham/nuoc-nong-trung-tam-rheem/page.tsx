@@ -219,12 +219,12 @@ export default function RheemHeatPumpPage() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-3xl font-bold text-[#1a5276] mb-6">
-            Rheem – Thương hiệu nước nóng trung tâm số 1 đến từ Úc
+            Rheem – Thương hiệu nước nóng trung tâm cao cấp đến từ Úc
           </h2>
 
           <div className="space-y-5 text-lg leading-relaxed">
             <p>
-              Thành lập năm <strong>1925</strong> tại San Francisco, Hoa Kỳ, Rheem là một trong những thương hiệu hàng đầu thế giới trong lĩnh vực sản xuất máy nước nóng và hệ thống sưởi ấm với hơn <strong>100 năm kinh nghiệm</strong>. Với 3 nhà máy sản xuất tại Bình Dương từ năm 2013, Rheem xuất khẩu sang Úc, New Zealand và Hoa Kỳ với chất lượng đồng nhất toàn cầu.
+              Thành lập năm <strong>1925</strong> tại San Francisco, Hoa Kỳ, Rheem là một trong những thương hiệu thế giới trong lĩnh vực sản xuất máy nước nóng và hệ thống sưởi ấm với hơn <strong>100 năm kinh nghiệm</strong>. Với 3 nhà máy sản xuất tại Bình Dương từ năm 2013, Rheem xuất khẩu sang Úc, New Zealand và Hoa Kỳ với chất lượng đồng nhất toàn cầu.
             </p>
 
             <p>

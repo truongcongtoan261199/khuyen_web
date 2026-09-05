@@ -9,10 +9,10 @@ import Breadcrumb from "../../components/Breadcrumb";
 /* ====================== DATA ====================== */
 
 const images = [
-  "/images/san-pham/chi-tiet-san-pham/may-loc-nuoc-tong-clack-water-detail-0.png",
-  "/images/san-pham/chi-tiet-san-pham/may-loc-nuoc-tong-clack-water-detail-100.png",
-  "/images/san-pham/chi-tiet-san-pham/may-loc-nuoc-tong-clack-water-detail-200.png",
-  "/images/san-pham/chi-tiet-san-pham/may-loc-nuoc-tong-clack-water-detail-300.png",
+  "/images/san-pham/chi-tiet-san-pham/loc_clack_1.png",
+  "/images/san-pham/chi-tiet-san-pham/loc_clack_2.png",
+  "/images/san-pham/chi-tiet-san-pham/loc_clack_3.png",
+  "/images/san-pham/chi-tiet-san-pham/loc_clack_4.png",
 ];
 
 const highlights = [
@@ -109,12 +109,10 @@ const specs = [
 ];
 
 const installImages = [
-  "/images/san-pham/chi-tiet-san-pham/lap-dat-1.jpg",
-  "/images/san-pham/chi-tiet-san-pham/lap-dat-2.jpg",
-  "/images/san-pham/chi-tiet-san-pham/lap-dat-3.jpg",
-  "/images/san-pham/chi-tiet-san-pham/lap-dat-4.jpg",
-  "/images/san-pham/chi-tiet-san-pham/lap-dat-5.jpg",
-  "/images/san-pham/chi-tiet-san-pham/lap-dat-6.jpg",
+  "/images/san-pham/chi-tiet-san-pham/lap_dat_clack_1.jpg",
+  "/images/san-pham/chi-tiet-san-pham/lap_dat_clack_2.jpg",
+  "/images/san-pham/chi-tiet-san-pham/lap_dat_clack_3.jpg",
+  "/images/san-pham/chi-tiet-san-pham/lap_dat_clack_4.jpg",
 ];
 
 const tabs = [
@@ -359,7 +357,7 @@ export default function Page() {
             transition={{ delay: 0.05 }}
             className="text-gray-600 leading-relaxed"
           >
-            Hệ thống lọc nước Clack – Thương hiệu số 1 của Mỹ cho giải pháp lọc nước tổng cao cấp
+            Hệ thống lọc nước Clack – Thương hiệu cao cấp của Mỹ cho giải pháp lọc nước tổng cao cấp
           </motion.p>
 
           <motion.ul
@@ -437,11 +435,11 @@ export default function Page() {
         <Section id="mo-ta" title="Mô tả sản phẩm">
           <div className="space-y-8 text-gray-600 leading-relaxed">
             <p className="text-lg font-semibold">
-              Hệ thống lọc nước Clack – Thương hiệu số 1 của Mỹ cho giải pháp lọc nước tổng cao cấp
+              Hệ thống lọc nước Clack – Thương hiệu cao cấp của Mỹ cho giải pháp lọc nước tổng cao cấp
             </p>
 
             <p>
-              Clack là thương hiệu hàng đầu của Mỹ trong lĩnh vực giải pháp lọc nước tổng, nổi tiếng toàn cầu với độ bền vượt trội, khả năng xử lý nước mạnh mẽ và độ ổn định. Nhờ tích hợp van điều khiển Clack Autovalve – dòng van được xem là “tiêu chuẩn vàng” trong ngành xử lý nước – hệ thống Clack hoạt động hoàn toàn tự động, bền bỉ 24/7 và hầu như không gặp lỗi kỹ thuật.
+              Clack là thương hiệu của Mỹ trong lĩnh vực giải pháp lọc nước tổng, nổi tiếng toàn cầu với độ bền vượt trội, khả năng xử lý nước mạnh mẽ và độ ổn định. Nhờ tích hợp van điều khiển Clack Autovalve – dòng van được xem là “tiêu chuẩn vàng” trong ngành xử lý nước – hệ thống Clack hoạt động hoàn toàn tự động, bền bỉ 24/7 và hầu như không gặp lỗi kỹ thuật.
             </p>
 
             <h3 className="text-xl font-bold text-[#1a5276] mt-10 mb-4">Điểm nổi bật của hệ thống lọc nước Clack (USA)</h3>

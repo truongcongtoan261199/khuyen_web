@@ -21,7 +21,7 @@ const categories = [
   {
     title: "Hệ Thống Lọc Nước Tổng",
     description: "Giải pháp lọc nước toàn nhà, loại bỏ tạp chất, kim loại nặng, vi khuẩn và clo dư thừa. Đảm bảo nguồn nước sạch cho cả gia đình.",
-    img: "/images/san-pham/loc-nuoc-tong-v1.png",
+    img: "/images/san-pham/loc-nuoc-tong.png",
     href: "/danh-muc-san-pham/he-thong-loc-nuoc-tong",
     icon: Droplets,
     count: "3 sản phẩm",

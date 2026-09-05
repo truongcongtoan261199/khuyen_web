@@ -5,19 +5,19 @@ import Link from "next/link";
 
 const slides = [
   {
-    src: "/images/slider/slide-001.png",
+    src: "/images/slider/slide-1.png",
     title: "GIẢI PHÁP XỬ LÝ NƯỚC TỔNG",
     desc: "Tiện nghi hiện đại – tiết kiệm năng lượng tối ưu",
     link: "/danh-muc-san-pham/he-thong-loc-nuoc-tong",
   },
   {
-    src: "/images/slider/slide-002.png",
+    src: "/images/slider/slide-2.png",
     title: "GIẢI PHÁP NƯỚC NÓNG TỔNG",
     desc: "An toàn - Tiết kiệm điện năng",
     link: "/danh-muc-san-pham/he-thong-nuoc-nong-trung-tam",
   },
   {
-    src: "/images/slider/slide-003.png",
+    src: "/images/slider/slide-3.png",
     title: "GIẢI PHÁP LỌC NƯỚC TỔNG",
     desc: "Công nghệ tiên tiến - Giải pháp lọc nước tổng toàn diện - Bảo vệ sức khỏe toàn diện cho gia đình",
     link: "/danh-muc-san-pham/he-thong-loc-nuoc-tong",

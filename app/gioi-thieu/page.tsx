@@ -206,7 +206,7 @@ export default function GioiThieuPage() {
           <div>
             <h2 className="text-3xl font-bold text-[#1a5276] mb-4">TẦM NHÌN</h2>
             <p className="text-gray-700 leading-relaxed">
-              Trở thành một trong những công ty mạnh hàng đầu về lĩnh vực năng lượng xanh- năng lượng tái tạo và xử lý nước ( lọc nước trung tâm và nước nóng trung tâm bảo vệ cho sức khỏe) giúp cho nền kinh tế của đất nước ngày càng phát triển hơn nữa.
+              Trở thành một trong những công ty mạnh về lĩnh vực năng lượng xanh- năng lượng tái tạo và xử lý nước ( lọc nước trung tâm và nước nóng trung tâm bảo vệ cho sức khỏe) giúp cho nền kinh tế của đất nước ngày càng phát triển hơn nữa.
             </p>
           </div>
           <div>

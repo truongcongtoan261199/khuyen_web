@@ -73,7 +73,7 @@ export const jsonLdBusiness = {
   name: "VIET HOME",
   image: "https://viethomesolutions.vn/wp-content/uploads/2024/07/3-1.png",
   description:
-    "Đơn vị hàng đầu cung cấp giải pháp toàn diện: Lọc nước tổng, Nước nóng trung tâm Heat Pump, Cấp khí tươi và Sưởi ấm dưới sàn cao cấp tại Hà Nội.",
+    "Đơn vị cung cấp giải pháp toàn diện: Lọc nước tổng, Nước nóng trung tâm Heat Pump, Cấp khí tươi và Sưởi ấm dưới sàn cao cấp tại Hà Nội.",
   address: {
     "@type": "PostalAddress",
     streetAddress:

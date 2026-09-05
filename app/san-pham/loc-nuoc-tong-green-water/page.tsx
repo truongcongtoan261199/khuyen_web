@@ -9,18 +9,18 @@ import Breadcrumb from "../../components/Breadcrumb";
 /* ====================== DATA ====================== */
 
 const heroImages = [
-  "/images/san-pham/chi-tiet-san-pham/may-loc-nuoc-tong-green-water-detail-00.png",
-  "/images/san-pham/chi-tiet-san-pham/may-loc-nuoc-tong-green-water-detail-1.jpg",
-  "/images/san-pham/chi-tiet-san-pham/may-loc-nuoc-tong-green-water-detail-3.jpg",
+  "/images/san-pham/chi-tiet-san-pham/loc_vn_1.jpg",
+  "/images/san-pham/chi-tiet-san-pham/loc_vn_2.jpg",
+  "/images/san-pham/chi-tiet-san-pham/loc_vn_3.jpg",
+  "/images/san-pham/chi-tiet-san-pham/loc_vn_4.jpg",
+  "/images/san-pham/chi-tiet-san-pham/loc_vn_5.jpg",
 ];
 
 const highlights = [
-  "Tích hợp công nghệ IoT – giám sát, điều khiển hệ thống lọc từ xa qua điện thoại",
-  "Công nghệ lọc Vortech độc quyền – tối ưu hiệu suất lọc tổng",
-  "Cảm biến rò rỉ thông minh – bảo vệ ngôi nhà khỏi nguy cơ ngập nước",
-  "Đèn UV diệt khuẩn – loại bỏ vi khuẩn, virus trong nước",
-  "Vật liệu lọc nhập khẩu cao cấp từ Mỹ, Đức, Nhật Bản",
-  "Đạt chuẩn QCVN 01-1 cho nước sinh hoạt, bảo hành dài hạn",
+  "Hệ thống đa dạng cấp lọc từ 1-6 cấp lọc",
+  "Vật liệu lọc nhập khẩu từ Mỹ, EU, Nhật Bản… đạt chuẩn NSF",
+  "Vỏ cột lọc đa dạng từ inox 304 tới composite cao cấp",
+  "Đạt chuẩn QCVN cho nguồn nước sinh hoạt, bảo hành lâu dài"
 ];
 
 const filterStages = [
@@ -343,7 +343,7 @@ export default function Page() {
             transition={{ delay: 0.05 }}
             className="text-gray-600 leading-relaxed"
           >
-            Hệ thống lọc nước tổng Green Water với đa dạng các cấp lọc, đa dạng công suất lọc và vật liệu lọc phù hợp với nhiều nguồn nước khác nhau tại Việt Nam.
+            Hệ thống lọc nước tổng Việt Nam với đa dạng các cấp lọc, đa dạng công suất và vật liệu lọc phù hợp với nhiều nguồn nước khác nhau tại Việt Nam.
           </motion.p>
 
           {/* HIGHLIGHT LIST */}

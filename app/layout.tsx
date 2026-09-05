@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     default: "VIET HOME | Giải pháp lọc nước - Nước nóng - Khí tươi - Sưởi sàn",
     template: "%s | VIET HOME",
   },
-  description: "VIET HOME - Đơn vị hàng đầu cung cấp giải pháp toàn diện: Lọc nước tổng, Nước nóng trung tâm Heat Pump, Cấp khí tươi và Sưởi ấm dưới sàn cao cấp tại Hà Nội.",
+  description: "VIET HOME - Đơn vị cung cấp giải pháp toàn diện: Lọc nước tổng, Nước nóng trung tâm Heat Pump, Cấp khí tươi và Sưởi ấm dưới sàn cao cấp tại Hà Nội.",
   keywords: [
     "lọc nước tổng", "máy lọc nước", "nước nóng trung tâm", "heat pump",
     "sưởi ấm dưới sàn", "khí tươi", "komfovent", "sanden", "rheem",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "VIET HOME - Giải pháp không gian sống cao cấp",
-    description: "Cung cấp và thi công các giải pháp lọc nước, nước nóng, khí tươi & sưởi sàn cao cấp từ các thương hiệu hàng đầu thế giới.",
+    description: "Cung cấp và thi công các giải pháp lọc nước, nước nóng, khí tươi & sưởi sàn cao cấp từ các thương hiệu thế giới.",
     locale: "vi_VN",
     type: "website",
   },

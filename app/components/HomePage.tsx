@@ -39,7 +39,7 @@ const products = [
   {
     title: "Hệ Thống Lọc Nước Tổng",
     href: "/danh-muc-san-pham/he-thong-loc-nuoc-tong",
-    img: "/images/san-pham/loc-nuoc-tong-v1.png",
+    img: "/images/san-pham/loc-nuoc-tong.png",
     desc: "Giải pháp lọc nước tổng gia đình và công trình, loại bỏ tạp chất, kim loại nặng, vi khuẩn.",
     objectFit: "object-contain",
     bgClass: "bg-gray-50",
@@ -68,10 +68,10 @@ const projects = [
 ];
 
 const reasons = [
-  { icon: "/images/icon/icon-chat-luong-400x400.png", title: "Chất lượng sản phẩm", desc: "Nhập khẩu 100% từ thương hiệu nổi tiếng, chất lượng nhất trên thế giới." },
-  { icon: "/images/icon/icon-bao-hanh-bao-tri-1-400x400.png", title: "Bảo hành, bảo trì", desc: "Đặt quyền lợi khách hàng làm trọng tâm với chế độ bảo hành số 1 hiện nay." },
-  { icon: "/images/icon/icon-doi-ngu-ky-thuat-1-400x400.png", title: "Đội ngũ kỹ thuật", desc: "Đội ngũ kỹ sư được đào tạo bài bản, tận tâm và trách nhiệm trong mỗi dự án." },
-  { icon: "/images/icon/icon-giai-phap-toi-uu-1-400x400.png", title: "Giải pháp tối ưu", desc: "Căn cứ vào hiện trạng và sở thích để đưa ra giải pháp phù hợp nhất." },
+  { icon: "/images/icon/icon-chat-luong-400x400.png", title: "Chất lượng sản phẩm", desc: "Nhập khẩu 100% từ thương hiệu nổi tiếng, chất lượng trên thế giới." },
+  { icon: "/images/icon/icon-bao-hanh-bao-tri-1-400x400.png", title: "Bảo hành, bảo trì", desc: "Đặt quyền lợi khách hàng làm trọng tâm với chế độ bảo hành linh hoạt." },
+  { icon: "/images/icon/icon-doi-ngu-ky-thuat-1-400x400.png", title: "Đội ngũ kỹ thuật", desc: "Đội ngũ kỹ sư được đào tạo bài bản, tận tâm và trách nhiệm trong từng dự án." },
+  { icon: "/images/icon/icon-giai-phap-toi-uu-1-400x400.png", title: "Giải pháp tối ưu", desc: "Căn cứ vào hiện trạng và sở thích để đưa ra giải pháp phù hợp." },
   { icon: "/images/icon/icon-quy-trinhg-lam-viec-1-400x400.png", title: "Quy trình làm việc", desc: "Chuyên nghiệp từ khâu tư vấn đến lắp đặt, tận tâm trong từng bước." },
 ];
 
@@ -237,9 +237,7 @@ export default function HomePage() {
                   NÂNG TẦM CHẤT LƯỢNG<br />CUỘC SỐNG
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-6 text-[17px]">
-                  Công ty TNHH GIẢI PHÁP CÔNG NGHỆ VIỆT HOME là doanh nghiệp mới thành lập,
-                  quy tụ đội ngũ lãnh đạo & nhân viên có trình độ cao, đam mê và tận tâm
-                  trong lĩnh vực xử lý nước.
+                  Công ty TNHH Giải Pháp Công Nghệ Việt Home quy tụ đội ngũ lãnh đạo & nhân viên có trình độ cao, đam mê và tận tâm trong lĩnh vực xử lý nước.
                 </p>
 
                 <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
@@ -256,7 +254,7 @@ export default function HomePage() {
               <motion.div variants={slideRight} className="relative">
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/about/about_us_1.png"
+                    src="/images/about/about.png"
                     alt="Về VIET HOME"
                     width={600}
                     height={400}
@@ -421,10 +419,10 @@ export default function HomePage() {
               <motion.div variants={slideRight} className="relative">
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/banner/showroom-viet-home.png"
+                    src="/images/banner/showroom.png"
                     alt="Showroom VIET HOME"
-                    width={500}
-                    height={300}
+                    width={800}
+                    height={500}
                     className="w-full object-cover"
                   />
                 </div>
@@ -496,11 +494,11 @@ export default function HomePage() {
       <LazySection>
         <section className="relative py-24 overflow-hidden">
           <Image
-            src="/images/banner/showroom-viet-home.png"
+            src="/images/banner/showroom.png"
             alt="Đăng ký tư vấn miễn phí"
             fill
             className="object-cover"
-            sizes="100vw"
+            sizes="150vw"
           />
           <div className="absolute inset-0 bg-black/30 backdrop-blur-sm" />
 
